@@ -1,7 +1,18 @@
 # Global Inequity in terms of Poverty
 
 This folder contains all files for the Project.
+<br>
+The website shall look like this：
+<br>
+<img src="public/des.png"/>
+<br>
 <img src="public/tree.png"/>
+<br>
+<img src="public/map.png"/>
+<br>
+<img src="public/line.png"/>
+<br>
+<img src="public/dr.png"/>
 
 ## Install the packages
 1. Install node.js modules by `npm install`
