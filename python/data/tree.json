@@ -1,0 +1,798 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "median": 3.110258264324849,
+              "name": "Bangladesh"
+            },
+            {
+              "median": 6.702652894737087,
+              "name": "Bhutan"
+            },
+            {
+              "median": 4.103054962429613,
+              "name": "India"
+            },
+            {
+              "median": 10.22163073544963,
+              "name": "Iran"
+            },
+            {
+              "median": 14.35191939823969,
+              "name": "Maldives"
+            },
+            {
+              "median": 3.16524183029679,
+              "name": "Nepal"
+            },
+            {
+              "median": 3.788850780905248,
+              "name": "Pakistan"
+            },
+            {
+              "median": 6.170867326898343,
+              "name": "Sri Lanka"
+            }
+          ],
+          "name": "Southern Asia"
+        },
+        {
+          "children": [
+            {
+              "median": 5.800004945187053,
+              "name": "Armenia"
+            },
+            {
+              "median": 8.75371479287225,
+              "name": "Azerbaijan"
+            },
+            {
+              "median": 38.98015645283959,
+              "name": "Cyprus"
+            },
+            {
+              "median": 5.836041408449774,
+              "name": "Georgia"
+            },
+            {
+              "median": 5.345247895973078,
+              "name": "Iraq"
+            },
+            {
+              "median": 32.35914934557186,
+              "name": "Israel"
+            },
+            {
+              "median": 8.72710700337821,
+              "name": "Jordan"
+            },
+            {
+              "median": 21.13003182074932,
+              "name": "Lebanon"
+            },
+            {
+              "median": 8.97320889595096,
+              "name": "Palestine"
+            },
+            {
+              "median": 14.29339859938751,
+              "name": "Turkey"
+            },
+            {
+              "median": 68.60425516292128,
+              "name": "United Arab Emirates"
+            },
+            {
+              "median": 3.152859578680506,
+              "name": "Yemen"
+            }
+          ],
+          "name": "Western Asia"
+        },
+        {
+          "children": [
+            {
+              "median": 5.787320925954285,
+              "name": "Indonesia"
+            },
+            {
+              "median": 3.830960248391243,
+              "name": "Laos"
+            },
+            {
+              "median": 20.30755775996729,
+              "name": "Malaysia"
+            },
+            {
+              "median": 5.230861666506129,
+              "name": "Myanmar"
+            },
+            {
+              "median": 5.805019954361698,
+              "name": "Philippines"
+            },
+            {
+              "median": 12.52119758654609,
+              "name": "Thailand"
+            },
+            {
+              "median": 2.658419434587597,
+              "name": "Timor"
+            },
+            {
+              "median": 8.749955335108229,
+              "name": "Vietnam"
+            }
+          ],
+          "name": "South-Eastern Asia"
+        },
+        {
+          "children": [
+            {
+              "median": 13.0091490487635,
+              "name": "China"
+            },
+            {
+              "median": 39.05675410467071,
+              "name": "Japan"
+            },
+            {
+              "median": 7.734838585072671,
+              "name": "Mongolia"
+            },
+            {
+              "median": 37.33464578345079,
+              "name": "South Korea"
+            }
+          ],
+          "name": "Eastern Asia"
+        },
+        {
+          "children": [
+            {
+              "median": 10.57105061092753,
+              "name": "Kazakhstan"
+            },
+            {
+              "median": 4.969394275424222,
+              "name": "Kyrgyzstan"
+            },
+            {
+              "median": 5.464681209441886,
+              "name": "Tajikistan"
+            },
+            {
+              "median": 1.901898285898674,
+              "name": "Turkmenistan"
+            },
+            {
+              "median": 1.621929608229898,
+              "name": "Uzbekistan"
+            }
+          ],
+          "name": "Central Asia"
+        }
+      ],
+      "name": "Asia"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "median": 10.83164622096564,
+              "name": "Albania"
+            },
+            {
+              "median": 16.2341407198169,
+              "name": "Bosnia and Herzegovina"
+            },
+            {
+              "median": 22.46613079108566,
+              "name": "Croatia"
+            },
+            {
+              "median": 21.17635682659008,
+              "name": "Greece"
+            },
+            {
+              "median": 36.2114652537926,
+              "name": "Italy"
+            },
+            {
+              "median": 42.32308342815605,
+              "name": "Malta"
+            },
+            {
+              "median": 12.66326755369148,
+              "name": "Montenegro"
+            },
+            {
+              "median": 26.6095184790854,
+              "name": "Portugal"
+            },
+            {
+              "median": 13.44119074410091,
+              "name": "Serbia"
+            },
+            {
+              "median": 35.31029377680492,
+              "name": "Slovenia"
+            },
+            {
+              "median": 34.21031817561074,
+              "name": "Spain"
+            }
+          ],
+          "name": "Southern Europe"
+        },
+        {
+          "children": [
+            {
+              "median": 50.96867144586987,
+              "name": "Austria"
+            },
+            {
+              "median": 46.38475568700201,
+              "name": "Belgium"
+            },
+            {
+              "median": 44.99028389191115,
+              "name": "France"
+            },
+            {
+              "median": 48.70814182156142,
+              "name": "Germany"
+            },
+            {
+              "median": 63.58423828707659,
+              "name": "Luxembourg"
+            },
+            {
+              "median": 48.70537299424464,
+              "name": "Netherlands"
+            },
+            {
+              "median": 57.91094687335458,
+              "name": "Switzerland"
+            }
+          ],
+          "name": "Western Europe"
+        },
+        {
+          "children": [
+            {
+              "median": 19.14894472561082,
+              "name": "Belarus"
+            },
+            {
+              "median": 18.66035339064578,
+              "name": "Bulgaria"
+            },
+            {
+              "median": 30.04106997813182,
+              "name": "Czechia"
+            },
+            {
+              "median": 24.15946709391712,
+              "name": "Hungary"
+            },
+            {
+              "median": 15.93926382504037,
+              "name": "Poland"
+            },
+            {
+              "median": 8.683898315169522,
+              "name": "Moldova"
+            },
+            {
+              "median": 17.61316621759726,
+              "name": "Romania"
+            },
+            {
+              "median": 15.17312153119123,
+              "name": "Russia"
+            },
+            {
+              "median": 24.47826550365238,
+              "name": "Slovakia"
+            },
+            {
+              "median": 12.7279237224021,
+              "name": "Ukraine"
+            }
+          ],
+          "name": "Eastern Europe"
+        },
+        {
+          "children": [
+            {
+              "median": 48.41527429372794,
+              "name": "Denmark"
+            },
+            {
+              "median": 32.39102855314226,
+              "name": "Estonia"
+            },
+            {
+              "median": 46.23118622112795,
+              "name": "Finland"
+            },
+            {
+              "median": 53.27985865102415,
+              "name": "Iceland"
+            },
+            {
+              "median": 44.24420610085726,
+              "name": "Ireland"
+            },
+            {
+              "median": 24.6556554966971,
+              "name": "Latvia"
+            },
+            {
+              "median": 27.15203781994917,
+              "name": "Lithuania"
+            },
+            {
+              "median": 63.18894591340699,
+              "name": "Norway"
+            },
+            {
+              "median": 49.98920694502409,
+              "name": "Sweden"
+            },
+            {
+              "median": 40.83672616873287,
+              "name": "United Kingdom"
+            }
+          ],
+          "name": "Northern Europe"
+        }
+      ],
+      "name": "Europe"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "median": 7.15852568018615,
+              "name": "Algeria"
+            },
+            {
+              "median": 4.06936029972045,
+              "name": "Egypt"
+            },
+            {
+              "median": 7.441964455491266,
+              "name": "Morocco"
+            },
+            {
+              "median": 3.500351817873737,
+              "name": "Sudan"
+            },
+            {
+              "median": 9.223565786029882,
+              "name": "Tunisia"
+            }
+          ],
+          "name": "Northern Africa"
+        },
+        {
+          "children": [
+            {
+              "median": 1.901954535963813,
+              "name": "Angola"
+            },
+            {
+              "median": 3.41110795697717,
+              "name": "Cameroon"
+            },
+            {
+              "median": 1.345688079004808,
+              "name": "Central African Republic"
+            },
+            {
+              "median": 2.447748927478051,
+              "name": "Chad"
+            },
+            {
+              "median": 2.366651334851676,
+              "name": "Congo"
+            },
+            {
+              "median": 7.614728226430608,
+              "name": "Gabon"
+            },
+            {
+              "median": 2.90589283625206,
+              "name": "Sao Tome and Principe"
+            }
+          ],
+          "name": "Middle Africa"
+        },
+        {
+          "children": [
+            {
+              "median": 3.143883146567879,
+              "name": "Benin"
+            },
+            {
+              "median": 2.51075957506314,
+              "name": "Burkina Faso"
+            },
+            {
+              "median": 6.451717901956318,
+              "name": "Cape Verde"
+            },
+            {
+              "median": 4.122147487337441,
+              "name": "Cote d'Ivoire"
+            },
+            {
+              "median": 3.789830892581235,
+              "name": "Gambia"
+            },
+            {
+              "median": 4.976451640137421,
+              "name": "Ghana"
+            },
+            {
+              "median": 2.798147910473777,
+              "name": "Guinea"
+            },
+            {
+              "median": 2.793225736926841,
+              "name": "Guinea-Bissau"
+            },
+            {
+              "median": 2.065502214222879,
+              "name": "Liberia"
+            },
+            {
+              "median": 3.22960757929893,
+              "name": "Mali"
+            },
+            {
+              "median": 4.823435049651368,
+              "name": "Mauritania"
+            },
+            {
+              "median": 2.142134591198084,
+              "name": "Niger"
+            },
+            {
+              "median": 2.260831728394824,
+              "name": "Nigeria"
+            },
+            {
+              "median": 4.108132742261487,
+              "name": "Senegal"
+            },
+            {
+              "median": 2.096139962384096,
+              "name": "Sierra Leone"
+            },
+            {
+              "median": 3.111200215689234,
+              "name": "Togo"
+            }
+          ],
+          "name": "Western Africa"
+        },
+        {
+          "children": [
+            {
+              "median": 4.373573173886359,
+              "name": "Botswana"
+            },
+            {
+              "median": 3.21141803801032,
+              "name": "Lesotho"
+            },
+            {
+              "median": 5.376503720840577,
+              "name": "Namibia"
+            },
+            {
+              "median": 4.450887849138181,
+              "name": "South Africa"
+            }
+          ],
+          "name": "Southern Africa"
+        },
+        {
+          "children": [
+            {
+              "median": 1.30305806373987,
+              "name": "Burundi"
+            },
+            {
+              "median": 3.83900347967289,
+              "name": "Comoros"
+            },
+            {
+              "median": 3.844242168350824,
+              "name": "Djibouti"
+            },
+            {
+              "median": 2.546263348498957,
+              "name": "Ethiopia"
+            },
+            {
+              "median": 2.394905114724244,
+              "name": "Kenya"
+            },
+            {
+              "median": 1.0480706758195,
+              "name": "Madagascar"
+            },
+            {
+              "median": 1.266588266076092,
+              "name": "Malawi"
+            },
+            {
+              "median": 10.50004444291589,
+              "name": "Mauritius"
+            },
+            {
+              "median": 1.451965955431691,
+              "name": "Mozambique"
+            },
+            {
+              "median": 1.70385283833329,
+              "name": "Rwanda"
+            },
+            {
+              "median": 17.8156401098791,
+              "name": "Seychelles"
+            },
+            {
+              "median": 1.392387298094248,
+              "name": "Somalia"
+            },
+            {
+              "median": 1.047836633655295,
+              "name": "South Sudan"
+            },
+            {
+              "median": 2.230569423029636,
+              "name": "Uganda"
+            },
+            {
+              "median": 1.923207054294284,
+              "name": "Tanzania"
+            },
+            {
+              "median": 1.49450869983757,
+              "name": "Zambia"
+            },
+            {
+              "median": 2.358416837731384,
+              "name": "Zimbabwe"
+            }
+          ],
+          "name": "Eastern Africa"
+        }
+      ],
+      "name": "Africa"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "median": 6.953232817088473,
+              "name": "Samoa"
+            },
+            {
+              "median": 6.953232817088473,
+              "name": "Samoa"
+            },
+            {
+              "median": 7.622423118529698,
+              "name": "Tonga"
+            },
+            {
+              "median": 5.752042068202308,
+              "name": "Tuvalu"
+            }
+          ],
+          "name": "Polynesia"
+        },
+        {
+          "children": [
+            {
+              "median": 47.48055878384665,
+              "name": "Australia"
+            }
+          ],
+          "name": "Australia and New Zealand"
+        },
+        {
+          "children": [
+            {
+              "median": 5.536176500752969,
+              "name": "Fiji"
+            },
+            {
+              "median": 2.402483566413286,
+              "name": "Papua New Guinea"
+            },
+            {
+              "median": 2.847993535824852,
+              "name": "Solomon Islands"
+            },
+            {
+              "median": 4.286327495473021,
+              "name": "Vanuatu"
+            }
+          ],
+          "name": "Melanesia"
+        },
+        {
+          "children": [
+            {
+              "median": 4.900522373374244,
+              "name": "Kiribati"
+            },
+            {
+              "median": 8.451241229453817,
+              "name": "Marshall Islands"
+            },
+            {
+              "median": 3.872120236916465,
+              "name": "Micronesia"
+            },
+            {
+              "median": 6.134017303124919,
+              "name": "Nauru"
+            }
+          ],
+          "median": 3.872120236916465,
+          "name": "Micronesia"
+        }
+      ],
+      "name": "Oceania"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "median": 10.53942424011338,
+              "name": "Dominican Republic"
+            },
+            {
+              "median": 1.698289359342498,
+              "name": "Haiti"
+            },
+            {
+              "median": 7.950248244829013,
+              "name": "Jamaica"
+            },
+            {
+              "median": 12.3812111471325,
+              "name": "Saint Lucia"
+            },
+            {
+              "median": 7.859004259083307,
+              "name": "Trinidad and Tobago"
+            }
+          ],
+          "name": "Caribbean"
+        },
+        {
+          "children": [
+            {
+              "median": 12.17601799114082,
+              "name": "Argentina"
+            },
+            {
+              "median": 9.773214914667834,
+              "name": "Bolivia"
+            },
+            {
+              "median": 13.02353169268163,
+              "name": "Brazil"
+            },
+            {
+              "median": 17.33801128727532,
+              "name": "Chile"
+            },
+            {
+              "median": 7.165499676999464,
+              "name": "Colombia"
+            },
+            {
+              "median": 8.091500819574463,
+              "name": "Ecuador"
+            },
+            {
+              "median": 5.401772701964792,
+              "name": "Guyana"
+            },
+            {
+              "median": 11.21949791855335,
+              "name": "Paraguay"
+            },
+            {
+              "median": 7.835965986192532,
+              "name": "Peru"
+            },
+            {
+              "median": 5.603907364650947,
+              "name": "Suriname"
+            },
+            {
+              "median": 18.8556367330828,
+              "name": "Uruguay"
+            },
+            {
+              "median": 7.791440155110353,
+              "name": "Venezuela"
+            }
+          ],
+          "name": "South America"
+        },
+        {
+          "children": [
+            {
+              "median": 5.279236304737333,
+              "name": "Belize"
+            },
+            {
+              "median": 12.60884769566,
+              "name": "Costa Rica"
+            },
+            {
+              "median": 9.062244952902782,
+              "name": "El Salvador"
+            },
+            {
+              "median": 5.58047629745663,
+              "name": "Guatemala"
+            },
+            {
+              "median": 5.657554068323821,
+              "name": "Honduras"
+            },
+            {
+              "median": 8.418795931889417,
+              "name": "Mexico"
+            },
+            {
+              "median": 7.390502874120497,
+              "name": "Nicaragua"
+            },
+            {
+              "median": 17.47715568663098,
+              "name": "Panama"
+            }
+          ],
+          "name": "Central America"
+        }
+      ],
+      "name": "Latin America"
+    },
+    {
+      "children": [
+        {
+          "median": 51.10365549318456,
+          "name": "Canada"
+        },
+        {
+          "median": 59.68785948476514,
+          "name": "United States"
+        }
+      ],
+      "name": "Northern America"
+    }
+  ],
+  "median": 6.92,
+  "name": "World"
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+	<title>PCIV</title>
+    <link rel="icon" type="image/png" href="./favicon.png" sizes="200x200">
+	<link href="./css/style.css" rel="stylesheet" />
+    <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+</head>
+<body>
+    <nav>
+        <div>
+            <b>PCIV</b>
+			Project
+        </div>
+        <span class="divider"></span>
+        <span id="name">{your name}</span>
+    </nav>
+    <main>
+        <div id="header">
+            <div class="header_text">
+                An Unequal World —— Poverty and Global Inequity
+            </div>
+            <div class="header_name">
+                by Wenbo Tong
+            </div>
+            <div class="header_link">
+                <a href="https://pip.worldbank.org/home" target="_blank">
+                    explore the data origin @World Bank
+                </a><br>
+                <a href="https://data.oecd.org/inequality/poverty-rate.htm" target="_blank">
+                    explore the data origin @OECD
+                </a>
+            </div>
+        </div>
+        <div id="intro">
+            <div class="intro_header">
+                Overview
+            </div>
+            <div class="intro_text">
+                Poverty, perhaps a relatively unfamiliar term for some, is still troubling a substantial number of people in the world.
+                <br>
+                In 2019, stil <b>1,800,000,000</b> people lived below the $3.65 per day poverty line.
+                <br>
+                More than <b>648,000,000</b> people did not even have $2.15 per day for living.
+                <br><br>
+                In terms of poverty, there are various topics for us to research on.
+                <br>
+                In this work, I focus on the inequity of the world with regard to poverty.
+                <br><br>
+                Until now, there is no unified standard for poverty, for each country's living standard and costs for essential supplements are different.
+                <br>
+                For instance, the housing price in Shanghai is higher than in Stuttgart, while cabbage in Stuttgart could be 5-time more expensive.
+                <br>
+                Nevertheless, some thresholds can still be used to measure poverty, such as the UN poverty line.
+                <br>
+                And if you look at some of the charts below, you will find that the inequity gap is too large to be explained as differences in standards.
+            </div>
+        </div>
+        <div id="trans1">
+            To cast an eye at global inequity on poverty
+            <div id="trans1_des">
+                <br>
+                In this section, you will first look at a map showing the level of median income/expenditure of the world, which reflects inequity.
+                <br>
+                After that, a world map of poverty rate will be shown with the color shade to reflect poverty.
+
+            </div>
+        </div>
+        <div id="tree">
+            <div class="tree_des">
+                <div class="tree_des_title">
+                    The level of income/expenditure <br>per day below which<br> half of the population live.
+                </div>
+                <div class="tree_des_text">
+                    Divided by five continents, this chart shows the median income/expenditure level of each country. 
+                    Although this median income/expenditure level is not a reflection of poverty,
+                    for some countries, this figure is close to the definition of the poverty line in that country. 
+                    For instance, many European countries define their poverty line as 'earning less than 60% of the average median income'.
+                    <br><br>
+                    In this chart, the size of each block represents how large the income number is.
+                    You can find the obvious inequity through the presentation of this chart.
+                </div>
+            </div>
+            <div class="tree_vis">
+            </div>
+        </div>
+        <div id="map">
+            <div class="map_des">
+                <div class="map_des_title">
+                    World map of poverty rate
+                </div>
+                <div class="map_des_text">
+                    This chart is a vivid visualization of the different poverty levels in our world.
+                    Measured by the same threshold —— upper-middle poverty line 
+                    ($5.5 per day per person according to World Bank in 2011 price), 
+                    certain countries have an astonishing poverty rate of 
+                    over three-forths and even over 90% of the population.
+                </div>
+            </div>
+            <div class="map_vis">
+                <div class="map_svg">
+                    <svg id="map_svg" width="1200" height="500"></svg>
+                </div>
+                <div class="map_legend">
+                    <svg id="map_legend"></svg>
+                </div>
+            </div>
+        </div>
+        <div id="trans2">
+            Explore the dataset by yourself
+        </div>
+        <div id="line">
+            <div class="line_index">
+                <div class="line_index_text">select index for poverty:<br>
+                    <select id="line_s1">
+                        <option>percentage of people living under lower middle poverty line</option>
+                        <option>percentage of people living under upper middle poverty line</option>
+                        <option>percentage of people living United Nations poverty line</option>
+                        <option>percentage of people living under $1 a day</option>
+                        <option>percentage of people living under $10 a day</option>
+                        <option>percentage of people living under $20 a day</option>
+                    </select>
+                </div>
+            </div>
+            <div class="line_select" id="myUl">
+                <p id="select_p">Select countries:</p>
+                <input type="text" id="cInput" placeholder="Search for country...">
+                <ul class="line_sss"></ul>
+            </div>
+            <div class="line_vis"></div>
+        </div>
+        <div id="trans3">
+            <div class="trans3_title">
+                To find a pattern: which countries should we focus on
+            </div>
+            <div class="trans3_des">
+              
+                In this section, dimension reduction methods are being used on the World Bank poverty dataset (PIP dataset).
+                
+            </div>
+        </div>
+        <div id="dr">
+            <div class="mds_text">MDS</div>
+            <div class="umap_text">UMAP</div>
+            <div class="dr_MDS"></div>
+            <div class="dr_UMAP"></div>
+        </div>
+    </main>
+    <script src="./build/bundle.js"></script>
+</body>
+</html>
