@@ -1,7 +1,7 @@
 # Global Inequity in terms of Poverty
 
 This folder contains all files for the Project.
-<img src="public/tree.png" width="128"/>
+<img src="public/tree.png"/>
 
 ## Install the packages
 1. Install node.js modules by `npm install`
