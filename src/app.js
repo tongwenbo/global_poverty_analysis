@@ -62,7 +62,7 @@ function Legend(color, {
 Promise.all(
   [
     d3.json("./data/tree.json"),
-    d3.csv("http://127.0.0.1:8080/api/v1/line")
+    d3.csv("./data/line.csv")
   ]
 ).then(function([data, tree_data]){
     const margin = {top: 20, right: 20, bottom: 20, left: 20};
@@ -239,7 +239,7 @@ Promise.all(
 // this function creates the map
 Promise.all(
   [
-    d3.csv("http://127.0.0.1:8080/api/v1/map"),
+    d3.csv("./data/50m.csv"),
     d3.json('https://unpkg.com/world-atlas@1.1.4/world/50m.json')
   ]
 ).then(function([csv_data, json_data]){
@@ -409,8 +409,8 @@ function updateLine(data, countryName, index){
 // main function to draw line
 Promise.all(
   [
-    d3.csv("http://127.0.0.1:8080/api/v1/umap"),
-    d3.csv("http://127.0.0.1:8080/api/v1/line")
+    d3.csv("./data/umap.csv"),
+    d3.csv("./data/line.csv")
   ]
 ).then(function([umapData , data]){
     var index = "headcount_ratio_lower_mid_income_povline";
@@ -582,8 +582,8 @@ function updateCheckbox(){
 
 // main function to create scatterplot
 Promise.all([
-  d3.csv("http://127.0.0.1:8080/api/v1/umap"),
-  d3.csv("http://127.0.0.1:8080/api/v1/mds")
+  d3.csv("./data/umap.csv"),
+  d3.csv("./data/mds.csv")
 ]).then(function([umap_data, mds_data]){
 
   draw_dr(umap_data, ".dr_UMAP");
